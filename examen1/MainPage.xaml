@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examen1.MainPage">
+    
+    <StackLayout>
+        
+        <Image Source="https://web.ucenm.net/wp-content/uploads/2019/09/Logo-UCENM-Estilizado-300x112.png" HorizontalOptions="Center" />
+        
+        <Label Text="Nombre" Margin="40,0,40,0"/>
+
+        <Entry x:Name="ent1" Margin="40,0,40,0" FontSize="Large" TextColor="Green" Keyboard="Text" BackgroundColor="#ccff90"/>
+
+        <Label Text="Telefono" Margin="40,0,40,0"/>
+
+        <Entry x:Name="ent2" Margin="40,0,40,0" FontSize="Large" TextColor="Green" Keyboard="Numeric" BackgroundColor="#ccff90"/>
+
+        <Label Text="Edad" Margin="40,0,40,0"/>
+
+        <Entry x:Name="ent3" Margin="40,0,40,0" FontSize="Large" TextColor="Green" Keyboard="Numeric" BackgroundColor="#ccff90"/>
+
+        <Label Text="Pais" Margin="40,0,40,0"/>
+        <Picker x:Name="piker" Title="Seleccione un Pais" Margin="40,0,40,0" BackgroundColor="#ccff90" TextColor="Green"/>
+
+        <Label Text="Nota" Margin="40,0,40,0"/>
+        <Label x:Name="nt" Text="hola" Margin="40,0,40,40" FontSize="Large" BackgroundColor="#ccff90" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Button x:Name="bt1" Text="Salvar Contacto" TextColor="White" HorizontalOptions="CenterAndExpand" BorderColor="Black" BorderWidth="2" BackgroundColor="#00c853"/>
+
+    </StackLayout>
+
+</ContentPage>
